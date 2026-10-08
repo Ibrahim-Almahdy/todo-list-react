@@ -40,6 +40,10 @@ git clone https://github.com/Ibrahim-Almahdy/todo-list-react.git
 ```bash
    npm run dev
  ```
-Author
-Ibrahim Almahdy
-GitHub: https://github.com/Ibrahim-Almahdy
+# 👨‍💻 Author
+
+**Ibrahim Almahdy**
+
+### GitHub
+
+https://github.com/Ibrahim-Almahdy
