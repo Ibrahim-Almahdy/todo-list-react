@@ -28,15 +28,18 @@ A modern and responsive Todo List application built with React, TypeScript, Vite
 git clone https://github.com/Ibrahim-Almahdy/todo-list-react.git
 ```
 
-2. Navigate to the project directory
+### 2. Navigate to the project directory
+   ```bash
    cd todo-list-react
-   
-4. Install dependencies
+   ```
+### 4. Install dependencies
+```bash
    npm install
-
-5. Run the development server
+ ```
+### 5. Run the development server
+```bash
    npm run dev
-
+ ```
 Author
 Ibrahim Almahdy
 GitHub: https://github.com/Ibrahim-Almahdy
