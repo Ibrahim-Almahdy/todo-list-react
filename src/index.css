@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* The native switch keeps theme selection entirely presentational. */
+.todo-page:has(#theme-toggle:checked) {
+  background-color: #0f172a;
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-shell,
+.todo-page:has(#theme-toggle:checked) .todo-task {
+  border-color: #334155;
+  background-color: #1e293b;
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-shell {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.35);
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-title,
+.todo-page:has(#theme-toggle:checked) .todo-summary-count,
+.todo-page:has(#theme-toggle:checked) .todo-task-text {
+  color: #f8fafc;
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-subtitle,
+.todo-page:has(#theme-toggle:checked) .todo-summary {
+  color: #94a3b8;
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-input {
+  border-color: #334155;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-input::placeholder {
+  color: #64748b;
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-input:focus {
+  border-color: #818cf8;
+  background-color: #0f172a;
+  --tw-ring-color: rgb(99 102 241 / 0.2);
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-task:hover {
+  border-color: #475569;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2);
+}
+
+.todo-page:has(#theme-toggle:checked) .todo-summary {
+  border-color: #334155;
+}
+
+.todo-page:has(#theme-toggle:checked) .theme-switch {
+  background-color: #334155;
+}
+
+.todo-page:has(#theme-toggle:checked) .theme-switch:hover {
+  background-color: #475569;
+}
