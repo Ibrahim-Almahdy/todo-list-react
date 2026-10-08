@@ -30,11 +30,11 @@ git clone https://github.com/Ibrahim-Almahdy/todo-list-react.git
 
 2. Navigate to the project directory
    cd todo-list-react
-
-3. Install dependencies
+   
+4. Install dependencies
    npm install
 
-4. Run the development server
+5. Run the development server
    npm run dev
 
 Author
