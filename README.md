@@ -32,11 +32,11 @@ git clone https://github.com/Ibrahim-Almahdy/todo-list-react.git
    ```bash
    cd todo-list-react
    ```
-### 4. Install dependencies
+### 3. Install dependencies
 ```bash
    npm install
  ```
-### 5. Run the development server
+### 4. Run the development server
 ```bash
    npm run dev
  ```
